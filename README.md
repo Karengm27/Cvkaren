@@ -1,4 +1,4 @@
-# CV en React – Nombre del Aprendiz
+# CV en React – Karen Gonzalez 
 
 Proyecto es una hoja de vida modular construida en React utilizando Vite.
 Cada sección fue desarrollada como un componente independiente.
