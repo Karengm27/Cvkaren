@@ -1,30 +1,26 @@
 function Experiencia() {
   return (
-    <section>
-      <h3>Experiencia</h3>
+    <section className="section">
+      <h3>Experiencia Laboral</h3>
 
       <div>
-        <h4>Desarrollador Front-End</h4>
-        <p>Empresa imagiverse | 2022 - actualmente</p>
-        <p>Construcción de interfaces con React y consumo de APIs.</p>
+        <h4>Desarrollador Front-End – Imagiverse (2023 - Actualmente)</h4>
+        <p>Creación de interfaces y consumo de APIs utilizando React.</p>
       </div>
 
       <div>
-        <h4>Auxiliar TI</h4>
-        <p>Empresa modulaser| 2020 - 2022</p>
-        <p>Soporte técnico y mantenimiento de equipos.</p>
+        <h4>Auxiliar TI – Modulaser (2022)</h4>
+        <p>Soporte técnico y optimización de sistemas internos.</p>
       </div>
 
       <div>
-        <h4>Proyecto Personal</h4>
-        <p>2019 - 2020</p>
-        <p>Desarrollo de una aplicación CRUD con React y Firebase.</p>
+        <h4>Proyecto Personal – App React (2021)</h4>
+        <p>Desarrollo de aplicación CRUD usando React y Firebase.</p>
       </div>
 
       <div>
-        <h4>Proyecto Académico</h4>
-        <p>2018</p>
-        <p>Implementación de landing page con HTML, CSS y JS.</p>
+        <h4>Proyecto Académico – Landing Page (2020)</h4>
+        <p>Construcción de página web con HTML, CSS y JavaScript.</p>
       </div>
     </section>
   );

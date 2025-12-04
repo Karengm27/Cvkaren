@@ -5,7 +5,7 @@ import Educacion from "./components/educacion";
 
 function App() {
   return (
-    <div className="App">
+    <div className="cv-container">  
       <CabeceraCV />
       <Perfil />
       <Experiencia />
