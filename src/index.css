@@ -30,3 +30,28 @@ h1, h2, h3, h4 {
 p, li {
   color: #444;
 }
+a {
+  color: #0066cc;
+  text-decoration: none;
+} 
+a:hover {
+  text-decoration: underline;
+}
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.cabecera-foto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cabecera-foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0e0e0;
+}
