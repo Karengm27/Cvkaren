@@ -10,7 +10,7 @@ function stackTecnologias() {
 
   return (
     <section className="section">
-      <h2>Stack Tecnológico</h2>
+      <h2 style={{marginBottom: "20px"}}>Stack Tecnológico</h2>
 
       <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
         {tecnologias.map((tech, index) => (
