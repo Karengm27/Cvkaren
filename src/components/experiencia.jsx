@@ -1,27 +1,27 @@
 function Experiencia() {
+  const experiencias = [
+    { cargo: "Front-End Jr", empresa: "TechSoft", año: 2023, descripcion: "Desarrollo de interfaces con React." },
+    { cargo: "Proyecto Freelance", empresa: "Landing Page", año: 2023, descripcion: "Diseño de sitio web moderno." },
+    { cargo: "UI Developer", empresa: "Pixel Studio", año: 2022, descripcion: "Optimización visual y accesibilidad." },
+    { cargo: "Proyecto Dashboard", empresa: "React Admin", año: 2022, descripcion: "Dashboard con gráficos y tablas." },
+    { cargo: "Diseño Web", empresa: "Creative Lab", año: 2021, descripcion: "Maquetación responsive con CSS." },
+    { cargo: "Proyecto Ecommerce", empresa: "Online Store", año: 2021, descripcion: "Carrito funcional con React." },
+    { cargo: "Prácticas", empresa: "CodeHouse", año: 2020, descripcion: "Soporte en desarrollo web." },
+    { cargo: "Proyecto Personal", empresa: "Portafolio", año: 2020, descripcion: "Mi portafolio en React." },
+    { cargo: "Proyecto CRUD", empresa: "Users Manager", año: 2023, descripcion: "CRUD con estados y props." },
+    { cargo: "Rediseño Web", empresa: "Studio UX", año: 2024, descripcion: "Rediseño completo y animaciones." }
+  ];
+
   return (
     <section className="section">
-      <h3>Experiencia Laboral</h3>
+      <h2>Experiencia</h2>
 
-      <div>
-        <h4>Desarrollador Front-End – Imagiverse (2023 - Actualmente)</h4>
-        <p>Creación de interfaces y consumo de APIs utilizando React.</p>
-      </div>
-
-      <div>
-        <h4>Auxiliar TI – Modulaser (2022)</h4>
-        <p>Soporte técnico y optimización de sistemas internos.</p>
-      </div>
-
-      <div>
-        <h4>Proyecto Personal – App React (2021)</h4>
-        <p>Desarrollo de aplicación CRUD usando React y Firebase.</p>
-      </div>
-
-      <div>
-        <h4>Proyecto Académico – Landing Page (2020)</h4>
-        <p>Construcción de página web con HTML, CSS y JavaScript.</p>
-      </div>
+      {experiencias.map((exp, index) => (
+        <div key={index}>
+          <h3>{exp.cargo} – {exp.empresa} ({exp.año})</h3>
+          <p>{exp.descripcion}</p>
+        </div>
+      ))}
     </section>
   );
 }
