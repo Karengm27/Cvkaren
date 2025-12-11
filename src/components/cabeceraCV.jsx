@@ -7,7 +7,7 @@ function CabeceraCV({ nombre, cargo, contacto, foto }) {
         <p>{contacto}</p>
       </div>
 
-      <img src={foto} alt="foto" className="avatar" />
+      <img src={foto} alt="foto" className="avatar" style={{width: "150px"}} />
     </header>
   );
 }
