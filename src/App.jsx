@@ -12,7 +12,7 @@ function App() {
         nombre={cvData.nombre}
         cargo={cvData.cargo}
         contacto={cvData.contacto}
-        foto="/assets/foto.png"
+        foto="src/assets/foto.png"
       />
 
       <Perfil />
