@@ -1,5 +1,5 @@
 function stackTecnologias() {
-  const tecnologias = ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git", "Figma"];
+  const tecnologias = ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git", "Figma", "NodeJs", "Express", "MongoDB"];
 
   const getColor = (tech) => {
     if (tech === "JavaScript") return "gold";
